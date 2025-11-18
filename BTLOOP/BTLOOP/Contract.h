@@ -18,15 +18,13 @@ private:
     bool isActive;
 
 public:
-    // Constructor
+    
     Contract();
     Contract(string contractId, string studentId, string roomId,
         string startDate, string endDate, double monthlyFee, double deposit);
-
-    // Destructor
+    
     ~Contract();
 
-    // Getter methods
     string getContractId() const;
     string getStudentId() const;
     string getRoomId() const;

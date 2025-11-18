@@ -127,23 +127,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="authentication.cpp" />
+    <ClCompile Include="Bill.cpp" />
     <ClCompile Include="BTLOOP.cpp" />
     <ClCompile Include="Building.cpp" />
     <ClCompile Include="Contract.cpp" />
     <ClCompile Include="DormManager.cpp" />
+    <ClCompile Include="Maintenance.cpp" />
     <ClCompile Include="Person.cpp" />
+    <ClCompile Include="Reports.cpp" />
     <ClCompile Include="Room.cpp" />
     <ClCompile Include="Student.cpp" />
     <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="Violation.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="authentication.h" />
+    <ClInclude Include="Bill.h" />
     <ClInclude Include="Building.h" />
     <ClInclude Include="Contract.h" />
     <ClInclude Include="DormManager.h" />
+    <ClInclude Include="Maintenance.h" />
     <ClInclude Include="Person.h" />
+    <ClInclude Include="Reports.h" />
     <ClInclude Include="Room.h" />
     <ClInclude Include="Student.h" />
     <ClInclude Include="Utils.h" />
+    <ClInclude Include="Violation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
